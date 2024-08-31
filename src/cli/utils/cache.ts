@@ -1,6 +1,6 @@
 import path from 'path'
 
-import fs from 'fs-extra'
+import fs from 'graceful-fs'
 
 import getConfig from '../../utils/getConfig'
 

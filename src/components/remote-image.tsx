@@ -1,7 +1,7 @@
 import { createHash } from 'crypto'
 import { join } from 'path'
 
-import { appendFileSync } from 'fs-extra'
+import { appendFileSync } from 'graceful-fs'
 import type { ImageConfigComplete } from 'next/dist/shared/lib/image-config'
 import type { ImageProps } from 'next/image'
 import React, { forwardRef } from 'react'

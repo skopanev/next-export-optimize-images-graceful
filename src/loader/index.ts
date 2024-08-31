@@ -1,6 +1,6 @@
 import path from 'path'
 
-import fs from 'fs-extra'
+import fs from 'graceful-fs'
 import { PHASE_PRODUCTION_BUILD } from 'next/constants'
 import loadConfig from 'next/dist/server/config'
 import type { StaticImageData } from 'next/image'
