@@ -1,6 +1,6 @@
 import path from 'path'
 
-import fs from 'graceful-fs'
+import fs from 'fs-extra'
 import { imageConfigDefault } from 'next/dist/shared/lib/image-config'
 
 const exist = (filename: string) => fs.existsSync(path.resolve(__dirname, '.next/static/chunks/images', filename))

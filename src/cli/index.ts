@@ -2,7 +2,7 @@ import { createHash } from 'crypto'
 import path from 'path'
 
 import colors from 'ansi-colors'
-import fs from 'graceful-fs'
+import fs from 'fs-extra'
 import { PHASE_PRODUCTION_BUILD } from 'next/constants'
 import loadConfig from 'next/dist/server/config'
 import { ImageConfigComplete } from 'next/dist/shared/lib/image-config'

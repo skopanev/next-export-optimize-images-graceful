@@ -2,7 +2,7 @@ import path from 'path'
 import { Stream } from 'stream'
 import { ReadableStream } from 'stream/web'
 
-import fs from 'graceful-fs'
+import fs from 'fs-extra'
 
 import type { Manifest } from '../'
 

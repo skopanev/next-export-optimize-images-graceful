@@ -1,6 +1,6 @@
 import path from 'path'
 
-import fs from 'graceful-fs'
+import fs from 'fs-extra'
 
 import { getOptimizeResult } from '../../../src/cli'
 import type { CacheImages } from '../../../src/cli/utils/cache'

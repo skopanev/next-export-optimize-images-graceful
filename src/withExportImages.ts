@@ -2,7 +2,7 @@ import path from 'path'
 
 import colors from 'ansi-colors'
 import appRootPath from 'app-root-path'
-import fs from 'graceful-fs'
+import fs from 'fs-extra'
 import type { NextConfig } from 'next'
 
 import { Config } from './utils/getConfig'

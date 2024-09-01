@@ -2249,7 +2249,7 @@
     escape-html "^1.0.3"
     eta "^2.0.0"
     file-loader "^6.2.0"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     html-minifier-terser "^6.1.0"
     html-tags "^3.2.0"
     html-webpack-plugin "^5.5.0"
@@ -2312,7 +2312,7 @@
     "@mdx-js/mdx" "^1.6.22"
     escape-html "^1.0.3"
     file-loader "^6.2.0"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     image-size "^1.0.1"
     mdast-util-to-string "^2.0.0"
     remark-emoji "^2.2.0"
@@ -2351,7 +2351,7 @@
     "@docusaurus/utils-validation" "2.4.3"
     cheerio "^1.0.0-rc.12"
     feed "^4.2.2"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     lodash "^4.17.21"
     reading-time "^1.5.0"
     tslib "^2.4.0"
@@ -2373,7 +2373,7 @@
     "@docusaurus/utils-validation" "2.4.3"
     "@types/react-router-config" "^5.0.6"
     combine-promises "^1.1.0"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     import-fresh "^3.3.0"
     js-yaml "^4.1.0"
     lodash "^4.17.21"
@@ -2391,7 +2391,7 @@
     "@docusaurus/types" "2.4.3"
     "@docusaurus/utils" "2.4.3"
     "@docusaurus/utils-validation" "2.4.3"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     tslib "^2.4.0"
     webpack "^5.73.0"
 
@@ -2403,7 +2403,7 @@
     "@docusaurus/core" "2.4.3"
     "@docusaurus/types" "2.4.3"
     "@docusaurus/utils" "2.4.3"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     react-json-view "^1.21.3"
     tslib "^2.4.0"
 
@@ -2448,7 +2448,7 @@
     "@docusaurus/utils" "2.4.3"
     "@docusaurus/utils-common" "2.4.3"
     "@docusaurus/utils-validation" "2.4.3"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     sitemap "^7.1.1"
     tslib "^2.4.0"
 
@@ -2549,7 +2549,7 @@
     algoliasearch-helper "^3.10.0"
     clsx "^1.2.1"
     eta "^2.0.0"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     lodash "^4.17.21"
     tslib "^2.4.0"
     utility-types "^3.10.0"
@@ -2559,7 +2559,7 @@
   resolved "https://registry.yarnpkg.com/@docusaurus/theme-translations/-/theme-translations-2.4.3.tgz#91ac73fc49b8c652b7a54e88b679af57d6ac6102"
   integrity sha512-H4D+lbZbjbKNS/Zw1Lel64PioUAIT3cLYYJLUf3KkuO/oc9e0QCVhIYVtUI2SfBCF2NNdlyhBDQEEMygsCedIg==
   dependencies:
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     tslib "^2.4.0"
 
 "@docusaurus/types@2.4.3":
@@ -2603,7 +2603,7 @@
     "@svgr/webpack" "^6.2.1"
     escape-string-regexp "^4.0.0"
     file-loader "^6.2.0"
-    graceful-fs "^10.1.0"
+    fs-extra "^10.1.0"
     github-slugger "^1.4.0"
     globby "^11.1.0"
     gray-matter "^4.0.3"
@@ -5028,7 +5028,7 @@ fork-ts-checker-webpack-plugin@^6.5.0:
     chokidar "^3.4.2"
     cosmiconfig "^6.0.0"
     deepmerge "^4.2.2"
-    graceful-fs "^9.0.0"
+    fs-extra "^9.0.0"
     glob "^7.1.6"
     memfs "^3.1.2"
     minimatch "^3.0.4"
@@ -5056,18 +5056,18 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-graceful-fs@^10.1.0:
+fs-extra@^10.1.0:
   version "10.1.0"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
   integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-graceful-fs@^9.0.0:
+fs-extra@^9.0.0:
   version "9.1.0"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
   integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
   dependencies:
     at-least-node "^1.0.0"
